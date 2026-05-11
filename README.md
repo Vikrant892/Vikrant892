@@ -146,7 +146,7 @@
   <a href="mailto:vikrantsharma892@gmail.com">
     <img src="https://img.shields.io/badge/Email-vikrantsharma892%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
   </a>
-  <a href="https://discordapp.com/users/_69g_" title="Add me on Discord: _69g_">
+  <a href="https://discord.com/users/555655224723767296" title="Add me on Discord: _69g_">
     <img src="https://img.shields.io/badge/Add%20on%20Discord-_69g__-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="add on discord _69g_" />
   </a>
 </p>
