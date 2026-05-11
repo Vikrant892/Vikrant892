@@ -140,13 +140,15 @@
   <a href="https://linkedin.com/in/vik892">
     <img src="https://img.shields.io/badge/LinkedIn-vik892-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" />
   </a>
-  <a href="https://x.com/Vik69G">
-    <img src="https://img.shields.io/badge/X-Vik69G-000000?style=for-the-badge&logo=x&logoColor=white" alt="x" />
+  <a href="https://twitter.com/intent/follow?screen_name=Vik69G">
+    <img src="https://img.shields.io/badge/Follow%20on%20X-Vik69G-000000?style=for-the-badge&logo=x&logoColor=white" alt="follow on x" />
   </a>
   <a href="mailto:vikrantsharma892@gmail.com">
     <img src="https://img.shields.io/badge/Email-vikrantsharma892%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
   </a>
-  <img src="https://img.shields.io/badge/Discord-_69g__-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord _69g_" />
+  <a href="https://discordapp.com/users/_69g_" title="Add me on Discord: _69g_">
+    <img src="https://img.shields.io/badge/Add%20on%20Discord-_69g__-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="add on discord _69g_" />
+  </a>
 </p>
 
 <br />
