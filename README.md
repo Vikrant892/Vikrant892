@@ -152,7 +152,7 @@
 <br />
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vikrant892&label=Profile%20views&color=e8a05a&style=for-the-badge" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Vikrant892&label=Profile%20views&color=e8a05a&style=for-the-badge&base=788" alt="profile views" />
   <br />
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e8a05a,100:0a0a0a&height=80&section=footer" alt="" />
 </div>
