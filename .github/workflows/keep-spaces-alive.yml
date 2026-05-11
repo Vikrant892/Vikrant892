@@ -1,0 +1,99 @@
+name: Keep HF Spaces alive
+
+# Hugging Face free-tier Spaces pause after roughly 48 hours of no traffic.
+# This workflow pings every Space twice a day (well under that window) and
+# also calls the HF restart API on anything it finds paused. With an
+# HF_TOKEN secret set, this should keep the live demos available without
+# manual intervention.
+#
+# Note: HF's free tier also imposes a concurrent compute quota across the
+# account. If too many Spaces are running at the same moment, restart can
+# return a quota error. The workflow logs that case and moves on so the
+# others still get serviced.
+
+on:
+  schedule:
+    # 02:00 and 14:00 UTC. Twice daily, well under the 48h inactivity timer.
+    - cron: '0 2,14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_USER: vikrant892
+    steps:
+      - name: Ping and restart paused Spaces
+        run: |
+          set -u
+          spaces=(
+            "ids-project"
+            "threat-lens"
+            "nasa-space-challenge"
+            "phishing-detection-platform"
+            "credit-card-fraud-detection"
+            "log-analyzer-dashboard"
+            "password-strength-api"
+          )
+
+          # Counters for the summary at the end.
+          running=0
+          restarted=0
+          quota_blocked=0
+          unknown=0
+
+          for space in "${spaces[@]}"; do
+            url="https://huggingface.co/api/spaces/${HF_USER}/${space}"
+            stage=$(curl -s "$url" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('runtime',{}).get('stage','UNKNOWN'))" 2>/dev/null || echo UNKNOWN)
+            printf "%-40s stage=%s\n" "$space" "$stage"
+
+            case "$stage" in
+              RUNNING|APP_STARTING|BUILDING|RUNNING_BUILDING)
+                # Hit the user-facing URL to bump the activity timer.
+                curl -s -o /dev/null -m 30 \
+                  "https://${HF_USER}-${space}.hf.space/" || true
+                running=$((running + 1))
+                ;;
+              PAUSED|SLEEPING|STOPPED|RUNTIME_ERROR)
+                if [ -z "${HF_TOKEN:-}" ]; then
+                  echo "  HF_TOKEN not set; cannot restart. Add it as a repo secret."
+                  unknown=$((unknown + 1))
+                else
+                  response=$(curl -s -X POST \
+                    -H "Authorization: Bearer ${HF_TOKEN}" \
+                    "https://huggingface.co/api/spaces/${HF_USER}/${space}/restart")
+                  if echo "$response" | grep -qi "quota"; then
+                    echo "  restart blocked by quota: $response"
+                    quota_blocked=$((quota_blocked + 1))
+                  else
+                    echo "  restart triggered"
+                    restarted=$((restarted + 1))
+                  fi
+                fi
+                ;;
+              *)
+                echo "  unknown stage, leaving alone"
+                unknown=$((unknown + 1))
+                ;;
+            esac
+          done
+
+          echo ""
+          echo "=== summary ==="
+          echo "  running/booting: $running"
+          echo "  restarted:       $restarted"
+          echo "  quota blocked:   $quota_blocked"
+          echo "  unknown:         $unknown"
+
+          # Fail the job only if every space is in an unknown state, which
+          # would suggest the HF API itself is down.
+          total=$(( running + restarted + quota_blocked + unknown ))
+          if [ "$unknown" -eq "$total" ] && [ "$total" -gt 0 ]; then
+            echo "::error::all spaces returned unknown stage; HF API may be down"
+            exit 1
+          fi
