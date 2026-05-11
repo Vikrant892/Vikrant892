@@ -1,12 +1,12 @@
 <!-- Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:e8a05a&height=180&section=header&text=Vikrant%20Sharma&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%C2%B7%20Cybersecurity%20Analyst%20%C2%B7%20Adelaide&descSize=18&descAlignY=58" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:e8a05a&height=180&section=header&text=Vikrant%20Sharma&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20specialising%20in%20Cybersecurity%20%C2%B7%20Adelaide&descSize=18&descAlignY=58" alt="banner" />
 </div>
 
 <!-- Typing intro -->
 <div align="center">
   <a href="https://vikrant69g.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=E8A05A&center=true&vCenter=true&width=620&lines=Master+of+IT+at+USC+Adelaide;Shipping+production+data+%2B+security+systems;Daily+TIL+writeups+on+vikrant69g.com%2Fblog;Open+to+Australian+graduate+roles+for+Aug+2027" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=E8A05A&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+IT+at+USC+Adelaide%2C+finishing+Aug+2027;Sitting+the+AWS+Data+Engineer+Associate+next+month" alt="typing" />
   </a>
 </div>
 
@@ -14,11 +14,12 @@
 
 ## Currently
 
-- 🛡️ Building a **Hybrid ML Intrusion Detection System** for my capstone (Isolation Forest + Random Forest + Autoencoder, CICIDS2017)
-- 📝 An auto-publish pipeline ships a fresh post to [**vikrant69g.com/blog**](https://vikrant69g.com/blog) every 24 hours
-- 🎓 Finishing **Master of IT at USC Adelaide** in Aug 2027
-- 🇦🇺 Looking for graduate **Data Engineer** or **Cybersecurity Analyst** roles in Australia
-- 🏆 **Oracle Cloud Infrastructure 2025 Certified Data Science Professional** &nbsp;·&nbsp; NASA Space Apps **Global Finalist 2023** with Team Eklavya
+- 🛡️ Building a **Hybrid ML Intrusion Detection System** for my capstone. Real-time SOC tooling that maps every alert to MITRE ATT&CK so triage takes seconds instead of minutes.
+- 📚 Studying for the **AWS Certified Data Engineer Associate** exam (sitting next month).
+- 📝 An auto-publish pipeline ships a fresh post to [**vikrant69g.com/blog**](https://vikrant69g.com/blog) every 24 hours.
+- 🎓 Finishing **Master of IT at USC Adelaide** in Aug 2027. Building public ML + security work until graduate roles open up.
+- 🏆 **Oracle Cloud Infrastructure 2025 Certified Data Science Professional** &nbsp;·&nbsp; NASA Space Apps **Global Finalist 2023** with Team Eklavya.
+- 💡 The niche: most cyber analysts cannot build a model, most ML engineers do not know what MITRE ATT&CK is. I sit at the intersection.
 
 <br />
 
@@ -95,14 +96,15 @@
 
 ## Featured projects
 
-| Project | What it does | Live |
+| Project | Outcome | Live |
 |---|---|---|
-| [**Hybrid ML IDS**](https://github.com/Vikrant892/ids-project) | Ensemble NIDS+HIDS on CICIDS2017 with MITRE ATT&CK mapping and a Streamlit dashboard | [demo](https://huggingface.co/spaces/vikrant892/ids-project) |
-| [**ThreatLens**](https://github.com/Vikrant892/threat-lens) | FastAPI service correlating CVEs from NVD with IP reputation and MITRE techniques | [demo](https://huggingface.co/spaces/vikrant892/threat-lens) |
-| [**Cosmic Keys**](https://github.com/Vikrant892/nasa-space-challenge) | NASA Space Apps 2023 Global Finalist; turns planetary data into piano music | [demo](https://huggingface.co/spaces/vikrant892/nasa-space-challenge) |
-| [**Phishing Detection Platform**](https://github.com/Vikrant892/Phishing-detection-platform) | Email phishing analyser, Flask + SQLite + threat-pattern rules | [demo](https://huggingface.co/spaces/vikrant892/phishing-detection-platform) |
-| [**Credit Card Fraud Detection**](https://github.com/Vikrant892/credit-card-fraud-detection) | XGBoost + SMOTE on the 284k Kaggle dataset, end-to-end pipeline | [demo](https://huggingface.co/spaces/vikrant892/credit-card-fraud-detection) |
-| [**Password Strength API**](https://github.com/Vikrant892/password-strength-api) | FastAPI service with HIBP k-anonymity breach checks and entropy scoring | [demo](https://huggingface.co/spaces/vikrant892/password-strength-api) |
+| [**Hybrid ML IDS**](https://github.com/Vikrant892/ids-project) | Real-time intrusion detection that maps every alert to MITRE ATT&CK so SOC analysts triage in seconds, not minutes | [demo](https://huggingface.co/spaces/vikrant892/ids-project) |
+| [**ThreatLens**](https://github.com/Vikrant892/threat-lens) | Cuts SOC alert triage time by pre-ranking new CVEs against exploit availability + asset exposure + MITRE techniques | [demo](https://huggingface.co/spaces/vikrant892/threat-lens) |
+| [**Cosmic Keys**](https://github.com/Vikrant892/nasa-space-challenge) | NASA Space Apps Global Finalist 2023 with Team Eklavya. Makes planetary data audible | [demo](https://huggingface.co/spaces/vikrant892/nasa-space-challenge) |
+| [**Phishing Detection Platform**](https://github.com/Vikrant892/Phishing-detection-platform) | Catches the phishing patterns email gateways miss: header anomalies, hidden payloads, sender spoofing | [demo](https://huggingface.co/spaces/vikrant892/phishing-detection-platform) |
+| [**Credit Card Fraud Detection**](https://github.com/Vikrant892/credit-card-fraud-detection) | Handles 0.17% positive class on 284k transactions, the hardest version of fraud detection. The threshold is the work | [demo](https://huggingface.co/spaces/vikrant892/credit-card-fraud-detection) |
+| [**Log Analyzer**](https://github.com/Vikrant892/log-analyzer-dashboard) | SIEM for teams without a Splunk budget. Flags brute force + port scans in seconds, MITRE-mapped alerts | [demo](https://huggingface.co/spaces/vikrant892/log-analyzer-dashboard) |
+| [**Password Strength API**](https://github.com/Vikrant892/password-strength-api) | Drop-in password check. Returns entropy + breach status + crack-time without the server ever seeing the password | [demo](https://huggingface.co/spaces/vikrant892/password-strength-api) |
 
 <br />
 
