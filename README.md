@@ -6,7 +6,7 @@
 <!-- Typing intro -->
 <div align="center">
   <a href="https://vikrant69g.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=E8A05A&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+IT+at+USC+Adelaide%2C+finishing+Aug+2027;Sitting+the+AWS+Data+Engineer+Associate+next+month" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=E8A05A&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+IT+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
   </a>
 </div>
 
@@ -15,10 +15,10 @@
 ## Currently
 
 - 🛡️ Building a **Hybrid ML Intrusion Detection System** for my capstone. Real-time SOC tooling that maps every alert to MITRE ATT&CK so triage takes seconds instead of minutes.
-- 📚 Studying for the **AWS Certified Data Engineer Associate** exam (sitting next month).
+- 🪪 **AWS Certified Data Engineer Associate** (May 2026 → May 2029) and **Oracle Cloud Infrastructure 2025 Certified Data Science Professional**. Cloud + data credentials behind the work. [Verify AWS](https://www.credly.com/badges/22917eb7-1f4e-47b2-b878-004005d7a9b2/public_url).
 - 📝 An auto-publish pipeline ships a fresh post to [**vikrant69g.com/blog**](https://vikrant69g.com/blog) every 24 hours.
 - 🎓 Finishing **Master of IT at USC Adelaide** in Aug 2027. Building public ML + security work until graduate roles open up.
-- 🏆 **Oracle Cloud Infrastructure 2025 Certified Data Science Professional** &nbsp;·&nbsp; NASA Space Apps **Global Finalist 2023** with Team Eklavya.
+- 🏆 NASA Space Apps **Global Finalist 2023** with Team Eklavya.
 - 💡 The niche: most cyber analysts cannot build a model, most ML engineers do not know what MITRE ATT&CK is. I sit at the intersection.
 
 <br />
@@ -116,47 +116,4 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vikrant892/Vikrant892/output/github-contribution-grid-snake.svg" />
     <img alt="github contribution snake" src="https://raw.githubusercontent.com/Vikrant892/Vikrant892/output/github-contribution-grid-snake.svg" />
   </picture>
-</div>
-
-<br />
-
-## On repeat
-
-<div align="center">
-  <a href="https://open.spotify.com/track/3qhlB30KknSejmIvZZLjOD">
-    <img src="https://raw.githubusercontent.com/Vikrant892/Vikrant892/main/assets/spotify-card.svg" alt="End of Beginning by Djo, currently on repeat" />
-  </a>
-</div>
-
-<br />
-
-## Find me
-
-<p>
-  <a href="https://vikrant69g.com">
-    <img src="https://img.shields.io/badge/Portfolio-vikrant69g.com-e8a05a?style=for-the-badge&logo=astro&logoColor=white" alt="portfolio" />
-  </a>
-  <a href="https://vikrant69g.com/blog">
-    <img src="https://img.shields.io/badge/Blog-Field%20Notes-c97b3a?style=for-the-badge&logo=ghost&logoColor=white" alt="blog" />
-  </a>
-  <a href="https://linkedin.com/in/vik892">
-    <img src="https://img.shields.io/badge/LinkedIn-vik892-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=Vik69G">
-    <img src="https://img.shields.io/badge/Follow%20on%20X-Vik69G-000000?style=for-the-badge&logo=x&logoColor=white" alt="follow on x" />
-  </a>
-  <a href="mailto:vikrantsharma892@gmail.com">
-    <img src="https://img.shields.io/badge/Email-vikrantsharma892%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
-  </a>
-  <a href="https://discord.com/users/555655224723767296" title="Add me on Discord: _69g_">
-    <img src="https://img.shields.io/badge/Add%20on%20Discord-_69g__-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="add on discord _69g_" />
-  </a>
-</p>
-
-<br />
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vikrant892&label=Profile%20views&color=e8a05a&style=for-the-badge&base=788" alt="profile views" />
-  <br />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e8a05a,100:0a0a0a&height=80&section=footer" alt="" />
 </div>
