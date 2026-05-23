@@ -6,7 +6,7 @@
 <!-- Typing intro -->
 <div align="center">
   <a href="https://vikrant69g.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=E8A05A&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+IT+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=E8A05A&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+Information+and+Communication+Technology+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
   </a>
 </div>
 
@@ -17,7 +17,7 @@
 - 🛡️ Building a **Hybrid ML Intrusion Detection System** for my capstone. Real-time SOC tooling that maps every alert to MITRE ATT&CK so triage takes seconds instead of minutes.
 - 🪪 **AWS Certified Data Engineer Associate** (May 2026 → May 2029) and **Oracle Cloud Infrastructure 2025 Certified Data Science Professional**. Cloud + data credentials behind the work. [Verify AWS](https://www.credly.com/badges/22917eb7-1f4e-47b2-b878-004005d7a9b2/public_url).
 - 📝 An auto-publish pipeline ships a fresh post to [**vikrant69g.com/blog**](https://vikrant69g.com/blog) every 24 hours.
-- 🎓 Finishing **Master of IT at USC Adelaide** in Aug 2027. Building public ML + security work until graduate roles open up.
+- 🎓 Finishing **Master of Information and Communication Technology at USC Adelaide** in Aug 2027. Building public ML + security work until graduate roles open up.
 - 🏆 NASA Space Apps **Global Finalist 2023** with Team Eklavya.
 - 💡 The niche: most cyber analysts cannot build a model, most ML engineers do not know what MITRE ATT&CK is. I sit at the intersection.
 
