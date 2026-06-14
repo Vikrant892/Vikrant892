@@ -1,32 +1,42 @@
 <!-- Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:e8a05a&height=180&section=header&text=Vikrant%20Sharma&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20specialising%20in%20Cybersecurity%20%C2%B7%20Adelaide&descSize=18&descAlignY=58" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0f,100:2563eb&height=180&section=header&text=Vikrant%20Sharma&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20specialising%20in%20Cybersecurity%20%C2%B7%20Adelaide&descSize=18&descAlignY=58" alt="banner" />
 </div>
 
 <!-- Typing intro -->
 <div align="center">
   <a href="https://vikrant69g.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=E8A05A&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+Information+and+Communication+Technology+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=2563EB&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+Information+and+Communication+Technology+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
   </a>
+</div>
+
+<br />
+
+<!-- Primary links -->
+<div align="center">
+  <a href="https://vikrant69g.com"><img src="https://img.shields.io/badge/Portfolio-vikrant69g.com-2563EB?style=for-the-badge&logo=astro&logoColor=white" height="34" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/vik892/"><img src="https://img.shields.io/badge/LinkedIn-vik892-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="34" alt="LinkedIn" /></a>
+  <a href="mailto:vikrantsharma892@gmail.com"><img src="https://img.shields.io/badge/Email-get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="34" alt="Email" /></a>
+  <a href="https://vikrant69g.com/resume"><img src="https://img.shields.io/badge/Resume-read-18181B?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Resume" /></a>
 </div>
 
 <br />
 
 ## Currently
 
-- 🛡️ Building a **Hybrid ML Intrusion Detection System** for my capstone. Real-time SOC tooling that maps every alert to MITRE ATT&CK so triage takes seconds instead of minutes.
-- 🪪 **AWS Certified Data Engineer Associate** (May 2026 → May 2029) and **Oracle Cloud Infrastructure 2025 Certified Data Science Professional**. Cloud + data credentials behind the work. [Verify AWS](https://www.credly.com/badges/22917eb7-1f4e-47b2-b878-004005d7a9b2/public_url).
-- 📝 An auto-publish pipeline ships a fresh post to [**vikrant69g.com/blog**](https://vikrant69g.com/blog) every 24 hours.
-- 🎓 Finishing **Master of Information and Communication Technology at USC Adelaide** in Aug 2027. Building public ML + security work until graduate roles open up.
-- 🏆 NASA Space Apps **Global Finalist 2023** with Team Eklavya.
-- 💡 The niche: most cyber analysts cannot build a model, most ML engineers do not know what MITRE ATT&CK is. I sit at the intersection.
+- Building a **Hybrid ML Intrusion Detection System** for my capstone. Real-time SOC tooling that maps every alert to MITRE ATT&CK so triage takes seconds instead of minutes. [Case study](https://vikrant69g.com/work/hybrid-ml-intrusion-detection).
+- **AWS Certified Data Engineer Associate** (May 2026 to May 2029) and **Oracle Cloud Infrastructure 2025 Certified Data Science Professional**. Cloud and data credentials behind the work. [Verify AWS](https://www.credly.com/badges/22917eb7-1f4e-47b2-b878-004005d7a9b2/public_url).
+- Finishing **Master of Information and Communication Technology at USC Adelaide** in Aug 2027. Open to internships and part-time engineering work now, full-time over the Nov to Feb break.
+- NASA Space Apps **Global Finalist 2023** with Team Eklavya.
+- I write about ML, security and what I am building at [**vikrant69g.com/blog**](https://vikrant69g.com/blog).
+- The niche: most cyber analysts cannot build a model, most ML engineers do not know what MITRE ATT&CK is. I sit at the intersection.
 
 <br />
 
 ## Streak
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vikrant892&theme=transparent&background=0D1117&hide_border=false&stroke=30363d&ring=e8a05a&fire=e8a05a&currStreakLabel=e8a05a&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&excludeDaysLabel=8b949e" alt="streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vikrant892&theme=transparent&background=0D1117&hide_border=false&stroke=30363d&ring=2563eb&fire=2563eb&currStreakLabel=2563eb&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&excludeDaysLabel=8b949e" alt="streak" />
 </div>
 
 <br />
@@ -96,15 +106,17 @@
 
 ## Featured projects
 
-| Project | Outcome | Live |
+Full write-ups at [**vikrant69g.com**](https://vikrant69g.com/#work).
+
+| Project | Outcome | Links |
 |---|---|---|
-| [**Hybrid ML IDS**](https://github.com/Vikrant892/ids-project) | Real-time intrusion detection that maps every alert to MITRE ATT&CK so SOC analysts triage in seconds, not minutes | [demo](https://huggingface.co/spaces/vikrant892/ids-project) |
-| [**ThreatLens**](https://github.com/Vikrant892/threat-lens) | Cuts SOC alert triage time by pre-ranking new CVEs against exploit availability + asset exposure + MITRE techniques | [demo](https://huggingface.co/spaces/vikrant892/threat-lens) |
-| [**Cosmic Keys**](https://github.com/Vikrant892/nasa-space-challenge) | NASA Space Apps Global Finalist 2023 with Team Eklavya. Makes planetary data audible | [demo](https://huggingface.co/spaces/vikrant892/nasa-space-challenge) |
-| [**Phishing Detection Platform**](https://github.com/Vikrant892/Phishing-detection-platform) | Catches the phishing patterns email gateways miss: header anomalies, hidden payloads, sender spoofing | [demo](https://huggingface.co/spaces/vikrant892/phishing-detection-platform) |
-| [**Credit Card Fraud Detection**](https://github.com/Vikrant892/credit-card-fraud-detection) | Handles 0.17% positive class on 284k transactions, the hardest version of fraud detection. The threshold is the work | [demo](https://huggingface.co/spaces/vikrant892/credit-card-fraud-detection) |
-| [**Log Analyzer**](https://github.com/Vikrant892/log-analyzer-dashboard) | SIEM for teams without a Splunk budget. Flags brute force + port scans in seconds, MITRE-mapped alerts | [demo](https://huggingface.co/spaces/vikrant892/log-analyzer-dashboard) |
-| [**Password Strength API**](https://github.com/Vikrant892/password-strength-api) | Drop-in password check. Returns entropy + breach status + crack-time without the server ever seeing the password | [demo](https://huggingface.co/spaces/vikrant892/password-strength-api) |
+| **Hybrid ML IDS** | Real-time intrusion detection that maps every alert to MITRE ATT&CK so SOC analysts triage in seconds, not minutes | [case study](https://vikrant69g.com/work/hybrid-ml-intrusion-detection) · [demo](https://huggingface.co/spaces/vikrant892/ids-project) · [code](https://github.com/Vikrant892/ids-project) |
+| **Credit Card Fraud Detection** | Handles 0.17% positive class on 284k transactions, the hardest version of fraud detection. The threshold is the work | [case study](https://vikrant69g.com/work/credit-card-fraud-detection) · [demo](https://huggingface.co/spaces/vikrant892/credit-card-fraud-detection) · [code](https://github.com/Vikrant892/credit-card-fraud-detection) |
+| **Cosmic Keys** | NASA Space Apps Global Finalist 2023 with Team Eklavya. Makes planetary data audible | [case study](https://vikrant69g.com/work/cosmic-keys) · [demo](https://huggingface.co/spaces/vikrant892/nasa-space-challenge) · [code](https://github.com/Vikrant892/nasa-space-challenge) |
+| **ThreatLens** | Pre-ranks new CVEs against exploit availability, asset exposure and MITRE techniques to cut SOC triage time | [case study](https://vikrant69g.com/work/threatlens) · [demo](https://huggingface.co/spaces/vikrant892/threat-lens) · [code](https://github.com/Vikrant892/threat-lens) |
+| **Phishing Detection Platform** | Catches the phishing patterns email gateways miss: header anomalies, hidden payloads, sender spoofing | [case study](https://vikrant69g.com/work/phishing-detection-platform) · [demo](https://huggingface.co/spaces/vikrant892/phishing-detection-platform) · [code](https://github.com/Vikrant892/Phishing-detection-platform) |
+| **Log Analyzer** | SIEM for teams without a Splunk budget. Flags brute force and port scans in seconds, MITRE-mapped alerts | [case study](https://vikrant69g.com/work/log-analyzer-dashboard) · [demo](https://huggingface.co/spaces/vikrant892/log-analyzer-dashboard) · [code](https://github.com/Vikrant892/log-analyzer-dashboard) |
+| **Password Strength API** | Drop-in password check. Returns entropy, breach status and crack-time without the server ever seeing the password | [case study](https://vikrant69g.com/work/password-strength-api) · [demo](https://huggingface.co/spaces/vikrant892/password-strength-api) · [code](https://github.com/Vikrant892/password-strength-api) |
 
 <br />
 
