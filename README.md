@@ -36,7 +36,7 @@
 ## Streak
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vikrant892&theme=transparent&background=0D1117&hide_border=false&stroke=30363d&ring=2563eb&fire=2563eb&currStreakLabel=2563eb&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&excludeDaysLabel=8b949e" alt="streak" />
+  <img src="https://streak-stats.demolab.com/?user=Vikrant892&theme=transparent&background=0D1117&hide_border=false&stroke=30363d&ring=2563eb&fire=2563eb&currStreakLabel=2563eb&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&excludeDaysLabel=8b949e" alt="streak" />
 </div>
 
 <br />
