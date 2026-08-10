@@ -1,12 +1,12 @@
 <!-- Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0f,100:2563eb&height=180&section=header&text=Vikrant%20Sharma&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20specialising%20in%20Cybersecurity%20%C2%B7%20Adelaide&descSize=18&descAlignY=58" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0f,100:2563eb&height=180&section=header&text=Vikrant%20Sharma&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20%26%20ML%20Engineer%20%C2%B7%20Pipelines%2C%20models%2C%20detection%20%C2%B7%20Adelaide&descSize=18&descAlignY=58" alt="banner" />
 </div>
 
 <!-- Typing intro -->
 <div align="center">
   <a href="https://vikrant69g.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=2563EB&center=true&vCenter=true&width=680&lines=ML+engineer+who+specialises+in+cybersecurity;I+build+models+that+detect+threats+in+real+time;Master+of+Information+and+Communication+Technology+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=2563EB&center=true&vCenter=true&width=680&lines=Data+engineer+building+Python+ETL+pipelines+and+automation;I+build+ML+systems+that+detect+threats+in+real+time;Master+of+Information+and+Communication+Technology+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
   </a>
 </div>
 
