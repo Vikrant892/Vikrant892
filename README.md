@@ -1,23 +1,28 @@
-<!-- Banner -->
+<!-- Banner: self-hosted SVG so it never depends on a third-party render service -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0f,100:2563eb&height=180&section=header&text=Vikrant%20Sharma&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20%26%20ML%20Engineer%20%C2%B7%20Pipelines%2C%20models%2C%20detection%20%C2%B7%20Adelaide&descSize=18&descAlignY=58" alt="banner" />
+  <img src="https://raw.githubusercontent.com/Vikrant892/Vikrant892/main/assets/banner.svg" alt="Vikrant Sharma — Data and ML Engineer. Pipelines, models, detection. Adelaide." width="100%" />
 </div>
 
-<!-- Typing intro -->
+<!--
+  Intro is plain text on purpose. An animated typing SVG gets frozen mid-frame by
+  GitHub's image proxy, which is what produced the half-cut sentence here before.
+-->
 <div align="center">
-  <a href="https://vikrant69g.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=2563EB&center=true&vCenter=true&width=680&lines=Data+engineer+building+Python+ETL+pipelines+and+automation;I+build+ML+systems+that+detect+threats+in+real+time;Master+of+Information+and+Communication+Technology+at+USC+Adelaide%2C+finishing+Aug+2027;AWS+Certified+Data+Engineer+%2B+OCI+Data+Science+Professional" alt="typing" />
-  </a>
-</div>
 
-<br />
+**Data engineer building Python ETL pipelines and automation.**
+
+I build ML systems that detect threats in real time.
+Master of ICT at USC Adelaide, finishing Aug 2027.
+AWS Certified Data Engineer · OCI Data Science Professional.
+
+</div>
 
 <!-- Primary links -->
 <div align="center">
-  <a href="https://vikrant69g.com"><img src="https://img.shields.io/badge/Portfolio-vikrant69g.com-2563EB?style=for-the-badge&logo=astro&logoColor=white" height="34" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/vik892/"><img src="https://img.shields.io/badge/LinkedIn-vik892-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="34" alt="LinkedIn" /></a>
-  <a href="mailto:vikrantsharma892@gmail.com"><img src="https://img.shields.io/badge/Email-get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="34" alt="Email" /></a>
-  <a href="https://vikrant69g.com/resume"><img src="https://img.shields.io/badge/Resume-read-18181B?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Resume" /></a>
+  <a href="https://vikrant69g.com"><img src="https://img.shields.io/badge/Portfolio-vikrant69g.com-2563EB?style=for-the-badge&logo=astro&logoColor=white" height="30" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/vik892/"><img src="https://img.shields.io/badge/LinkedIn-vik892-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn" /></a>
+  <a href="mailto:vikrantsharma892@gmail.com"><img src="https://img.shields.io/badge/Email-get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="Email" /></a>
+  <a href="https://vikrant69g.com/resume"><img src="https://img.shields.io/badge/Resume-read-18181B?style=for-the-badge&logo=readme&logoColor=white" height="30" alt="Resume" /></a>
 </div>
 
 <br />
@@ -36,70 +41,73 @@
 ## Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Vikrant892&theme=transparent&background=0D1117&hide_border=false&stroke=30363d&ring=2563eb&fire=2563eb&currStreakLabel=2563eb&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&excludeDaysLabel=8b949e" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=Vikrant892&theme=transparent&background=0D1117&hide_border=false&stroke=30363d&ring=2563eb&fire=2563eb&currStreakLabel=2563eb&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&excludeDaysLabel=8b949e" alt="GitHub contribution streak for Vikrant892" width="500" />
 </div>
 
 <br />
 
 ## Stack
 
-### Primary, the ones I reach for first
+**Primary, the ones I reach for first**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,bash&theme=dark" alt="primary stack" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,bash&theme=dark" alt="Python, TypeScript, JavaScript, Bash" height="48" />
 </p>
 
-### Comfortable in, shipped projects in these
+**Comfortable in, shipped projects in these**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,c,php,html,css&theme=dark" alt="other languages" />
+  <img src="https://skillicons.dev/icons?i=java,c,php,html,css&theme=dark" alt="Java, C, PHP, HTML, CSS" height="48" />
 </p>
 
-### Data engineering
+**Data engineering**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,mysql&theme=dark" alt="data engineering" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/-Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white&logoWidth=20" height="48" alt="Snowflake" />
-  <img src="https://img.shields.io/badge/-Redshift-CC2228?style=for-the-badge&logo=amazonredshift&logoColor=white&logoWidth=20" height="48" alt="Redshift" />
-  <img src="https://img.shields.io/badge/-Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white&logoWidth=20" height="48" alt="Airflow" />
-  <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white&logoWidth=20" height="48" alt="Pandas" />
-  <img src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white&logoWidth=20" height="48" alt="NumPy" />
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,mysql&theme=dark" alt="PostgreSQL, SQLite, MySQL" height="48" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" height="30" alt="Snowflake" />
+  <img src="https://img.shields.io/badge/Redshift-CC2228?style=for-the-badge&logo=amazonredshift&logoColor=white" height="30" alt="Redshift" />
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" height="30" alt="Airflow" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="30" alt="pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" height="30" alt="NumPy" />
 </p>
 
-### Machine learning
+**Machine learning**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" alt="ml" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/-XGBoost-1A8FFF?style=for-the-badge&logo=xgboost&logoColor=white&logoWidth=20" height="48" alt="XGBoost" />
-  <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&logoWidth=20" height="48" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&logoWidth=20" height="48" alt="HuggingFace" />
+  <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" alt="PyTorch, scikit-learn" height="48" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/XGBoost-1A8FFF?style=for-the-badge&logo=xgboost&logoColor=white" height="30" alt="XGBoost" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="30" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="30" alt="Hugging Face" />
 </p>
 
-### Web and API
+**Web and API**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=flask,fastapi,react,astro,tailwind,nodejs&theme=dark" alt="web" />
+  <img src="https://skillicons.dev/icons?i=flask,fastapi,react,astro,tailwind,nodejs&theme=dark" alt="Flask, FastAPI, React, Astro, Tailwind, Node.js" height="48" />
 </p>
 
-### Cybersecurity
+**Cybersecurity**
 
 <p>
-  <img src="https://img.shields.io/badge/-MITRE%20ATT%26CK-BA0C2F?style=for-the-badge&logoWidth=20" height="48" alt="MITRE ATT&CK" />
-  <img src="https://img.shields.io/badge/-OWASP%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white&logoWidth=20" height="48" alt="OWASP" />
-  <img src="https://img.shields.io/badge/-NIST%20CSF-1F4E79?style=for-the-badge&logoWidth=20" height="48" alt="NIST CSF" />
-  <img src="https://img.shields.io/badge/-ISO%2027001-005A8C?style=for-the-badge&logoWidth=20" height="48" alt="ISO 27001" />
-  <img src="https://img.shields.io/badge/-Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&logoWidth=20" height="48" alt="Wireshark" />
-  <img src="https://img.shields.io/badge/-Suricata-A41E22?style=for-the-badge&logoWidth=20" height="48" alt="Suricata" />
+  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-BA0C2F?style=for-the-badge" height="30" alt="MITRE ATT&CK" />
+  <img src="https://img.shields.io/badge/OWASP%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white" height="30" alt="OWASP Top 10" />
+  <img src="https://img.shields.io/badge/NIST%20CSF-1F4E79?style=for-the-badge" height="30" alt="NIST CSF" />
+  <img src="https://img.shields.io/badge/ISO%2027001-005A8C?style=for-the-badge" height="30" alt="ISO 27001" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" height="30" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/Suricata-A41E22?style=for-the-badge" height="30" alt="Suricata" />
 </p>
 
-### Infrastructure and DevOps
+**Infrastructure and DevOps**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=docker,aws,cloudflare,githubactions,linux,git&theme=dark" alt="infra" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/-Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white&logoWidth=20" height="48" alt="Oracle Cloud" />
+  <img src="https://skillicons.dev/icons?i=docker,aws,cloudflare,githubactions,linux,git&theme=dark" alt="Docker, AWS, Cloudflare, GitHub Actions, Linux, Git" height="48" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" height="30" alt="Oracle Cloud" />
 </p>
 
 <br />
@@ -126,6 +134,6 @@ Full write-ups at [**vikrant69g.com**](https://vikrant69g.com/#work).
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vikrant892/Vikrant892/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vikrant892/Vikrant892/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/Vikrant892/Vikrant892/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution grid consumed by a snake" src="https://raw.githubusercontent.com/Vikrant892/Vikrant892/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </div>

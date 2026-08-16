@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="Vikrant Sharma — Data and ML Engineer, Adelaide, Australia">
+  <title>Vikrant Sharma — Data &amp; ML Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0f" />
+      <stop offset="50%" stop-color="#0f1b3d" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="waveBack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e40af" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.45" />
+    </linearGradient>
+    <linearGradient id="waveFront" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" fill-opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="190" fill="url(#bg)" />
+  <rect width="1000" height="190" fill="url(#dots)" />
+
+  <path d="M0 150 C 167 125, 283 175, 467 152 C 650 128, 750 170, 900 148 C 950 141, 975 143, 1000 140 L1000 190 L0 190 Z" fill="url(#waveBack)" />
+  <path d="M0 168 C 150 148, 300 190, 500 168 C 700 146, 817 184, 950 167 L1000 162 L1000 190 L0 190 Z" fill="url(#waveFront)" />
+
+  <g font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="500" y="80" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="0.5">Vikrant Sharma</text>
+    <text x="500" y="118" font-size="25" font-weight="500" fill="#cbd5e1">Data &amp; ML Engineer &#183; Adelaide, Australia</text>
+  </g>
+
+  <rect x="330" y="134" width="340" height="2" fill="url(#rule)" />
+</svg>
