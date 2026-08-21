@@ -1,0 +1,46 @@
+name: Generate contribution streak
+
+on:
+  schedule:
+    # Re-render every 6 hours so the streak reflects today's commits.
+    - cron: '20 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: streak
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Render the streak card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STREAK_USER: ${{ github.repository_owner }}
+          STREAK_OUT: assets/streak.svg
+        run: python scripts/streak.py
+
+      - name: Commit if it changed
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "96935861+Vikrant892@users.noreply.github.com"
+          if git diff --quiet -- assets/streak.svg; then
+            echo "No change to the streak card."
+          else
+            git add assets/streak.svg
+            git commit -m "chore: refresh contribution streak card"
+            git push
+          fi
