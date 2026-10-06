@@ -20,7 +20,7 @@ AWS Certified Data Engineer · OCI Data Science Professional.
 <!-- Primary links -->
 <div align="center">
   <a href="https://vikrantsharma.info"><img src="https://img.shields.io/badge/Portfolio-vikrantsharma.info-2563EB?style=for-the-badge&logo=astro&logoColor=white" height="30" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/vik892/"><img src="https://img.shields.io/badge/LinkedIn-vik892-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/vikrantsharma892/"><img src="https://img.shields.io/badge/LinkedIn-vik892-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn" /></a>
   <a href="mailto:vikrantsharma892@gmail.com"><img src="https://img.shields.io/badge/Email-get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="Email" /></a>
   <a href="https://vikrantsharma.info/resume"><img src="https://img.shields.io/badge/Resume-read-18181B?style=for-the-badge&logo=readme&logoColor=white" height="30" alt="Resume" /></a>
 </div>
