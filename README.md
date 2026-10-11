@@ -116,15 +116,17 @@ AWS Certified Data Engineer · OCI Data Science Professional.
 
 Full write-ups at [**vikrantsharma.info**](https://vikrantsharma.info/#work).
 
+Demo status checked 11 October 2026: IDS, Cosmic Keys and ThreatLens are running. Four Spaces are paused; the free account currently allows three concurrent demos. Source code and local setup instructions remain available for every project.
+
 | Project | Outcome | Links |
 |---|---|---|
 | **Hybrid ML IDS** | Real-time intrusion detection that maps every alert to MITRE ATT&CK so SOC analysts triage in seconds, not minutes | [case study](https://vikrantsharma.info/work/hybrid-ml-intrusion-detection) · [demo](https://huggingface.co/spaces/vikrant892/ids-project) · [code](https://github.com/Vikrant892/ids-project) |
-| **Credit Card Fraud Detection** | Handles 0.17% positive class on 284k transactions, the hardest version of fraud detection. The threshold is the work | [case study](https://vikrantsharma.info/work/credit-card-fraud-detection) · [demo](https://huggingface.co/spaces/vikrant892/credit-card-fraud-detection) · [code](https://github.com/Vikrant892/credit-card-fraud-detection) |
+| **Credit Card Fraud Detection** | Handles 0.17% positive class on 284k transactions, the hardest version of fraud detection. The threshold is the work | [case study](https://vikrantsharma.info/work/credit-card-fraud-detection) · [Space — paused](https://huggingface.co/spaces/vikrant892/credit-card-fraud-detection) · [code](https://github.com/Vikrant892/credit-card-fraud-detection) |
 | **Cosmic Keys** | NASA Space Apps Global Finalist 2023 with Team Eklavya. Makes planetary data audible | [case study](https://vikrantsharma.info/work/cosmic-keys) · [demo](https://huggingface.co/spaces/vikrant892/nasa-space-challenge) · [code](https://github.com/Vikrant892/nasa-space-challenge) |
 | **ThreatLens** | Pre-ranks new CVEs against exploit availability, asset exposure and MITRE techniques to cut SOC triage time | [case study](https://vikrantsharma.info/work/threatlens) · [demo](https://huggingface.co/spaces/vikrant892/threat-lens) · [code](https://github.com/Vikrant892/threat-lens) |
-| **Phishing Detection Platform** | Catches the phishing patterns email gateways miss: header anomalies, hidden payloads, sender spoofing | [case study](https://vikrantsharma.info/work/phishing-detection-platform) · [demo](https://huggingface.co/spaces/vikrant892/phishing-detection-platform) · [code](https://github.com/Vikrant892/Phishing-detection-platform) |
-| **Log Analyzer** | SIEM for teams without a Splunk budget. Flags brute force and port scans in seconds, MITRE-mapped alerts | [case study](https://vikrantsharma.info/work/log-analyzer-dashboard) · [demo](https://huggingface.co/spaces/vikrant892/log-analyzer-dashboard) · [code](https://github.com/Vikrant892/log-analyzer-dashboard) |
-| **Password Strength API** | Drop-in password check. Returns entropy, breach status and crack-time without the server ever seeing the password | [case study](https://vikrantsharma.info/work/password-strength-api) · [demo](https://huggingface.co/spaces/vikrant892/password-strength-api) · [code](https://github.com/Vikrant892/password-strength-api) |
+| **Phishing Detection Platform** | Catches the phishing patterns email gateways miss: header anomalies, hidden payloads, sender spoofing | [case study](https://vikrantsharma.info/work/phishing-detection-platform) · [Space — paused](https://huggingface.co/spaces/vikrant892/phishing-detection-platform) · [code](https://github.com/Vikrant892/Phishing-detection-platform) |
+| **Log Analyzer** | SIEM for teams without a Splunk budget. Flags brute force and port scans in seconds, MITRE-mapped alerts | [case study](https://vikrantsharma.info/work/log-analyzer-dashboard) · [Space — paused](https://huggingface.co/spaces/vikrant892/log-analyzer-dashboard) · [code](https://github.com/Vikrant892/log-analyzer-dashboard) |
+| **Password Strength API** | Drop-in password check. Returns entropy, breach status and estimated crack-time; external breach lookups use HIBP k-anonymity | [case study](https://vikrantsharma.info/work/password-strength-api) · [Space — paused](https://huggingface.co/spaces/vikrant892/password-strength-api) · [code](https://github.com/Vikrant892/password-strength-api) |
 
 <br />
 
