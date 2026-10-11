@@ -59,7 +59,7 @@ jobs:
         run: |
           docker run -d --name free-demo-hub --memory=2g --cpus=2 -p 127.0.0.1:7860:7860 free-demo-hub
           python hosting/free-demo-hub/verify.py http://127.0.0.1:7860
-          docker exec free-demo-hub python - <<'PY'
+          docker exec -i free-demo-hub python - <<'PY'
           import json, pathlib, hashlib
           root = pathlib.Path('/opt/apps')
           checksums = json.loads((root / 'source-checksums.json').read_text())
