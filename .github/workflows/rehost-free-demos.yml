@@ -1,0 +1,50 @@
+name: Rehost free demos
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Check existing hosting access or verify and deploy the shared free server
+        type: choice
+        options: [check-access, deploy]
+        default: check-access
+
+permissions:
+  contents: read
+
+concurrency:
+  group: rehost-free-demos
+  cancel-in-progress: false
+
+jobs:
+  rehost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check existing hosting access without changing the Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request, urllib.error
+          token = os.environ.get('HF_TOKEN', '')
+          if not token:
+              raise SystemExit('HF_TOKEN is not configured; no hosting changes made.')
+          request = urllib.request.Request(
+              'https://huggingface.co/api/spaces/vikrant892/nasa-space-challenge/preupload/main',
+              data=b'{"files": []}',
+              headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+              method='POST',
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  data = json.load(response)
+                  assert data.get('files') == [], 'Unexpected preflight response'
+          except urllib.error.HTTPError as error:
+              raise SystemExit(f'Existing hosting credential denied file-upload access (HTTP {error.code}); no changes made.')
+          print('Existing credential can upload deployment files. No files or settings changed by this check.')
+          PY
