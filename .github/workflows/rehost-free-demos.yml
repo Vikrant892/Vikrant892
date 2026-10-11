@@ -51,9 +51,17 @@ jobs:
       - name: Prepare hosting-only package
         if: inputs.mode == 'deploy'
         run: python hosting/free-demo-hub/package.py /tmp/free-demo-package
+      - uses: docker/setup-buildx-action@v3
+        if: inputs.mode == 'deploy'
       - name: Build the shared server
         if: inputs.mode == 'deploy'
-        run: docker build -t free-demo-hub /tmp/free-demo-package
+        uses: docker/build-push-action@v6
+        with:
+          context: /tmp/free-demo-package
+          load: true
+          tags: free-demo-hub
+          cache-from: type=gha
+          cache-to: type=gha,mode=min
       - name: Verify applications before deployment
         if: inputs.mode == 'deploy'
         run: |

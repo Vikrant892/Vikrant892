@@ -1,5 +1,6 @@
 """Exercise the shared server locally, or perform read-only production checks."""
 import json
+import http.client
 import pathlib
 import sys
 import time
@@ -28,7 +29,7 @@ for path in pages:
                 assert b'data-prefix="' + path.rstrip('/').encode() + b'"' in html, path
             print('Page available:', path, flush=True)
             break
-        except (urllib.error.URLError, TimeoutError):
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException):
             if attempt == 44:
                 raise
             time.sleep(2)
